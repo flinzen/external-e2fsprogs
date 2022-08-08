@@ -455,7 +455,7 @@ LOCAL_C_INCLUDES := $(blkid_c_includes)
 LOCAL_CFLAGS := $(blkid_cflags)
 LOCAL_SHARED_LIBRARIES := $(blkid_shared_libraries)
 LOCAL_SYSTEM_SHARED_LIBRARIES := $(blkid_system_shared_libraries)
-LOCAL_MODULE := blkid
+LOCAL_MODULE := blkid-old
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_EXECUTABLE)
